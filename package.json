@@ -1,0 +1,14 @@
+{
+  "name": "ses-inline-images",
+  "scripts": {
+    "build": "rm -Rf ./lib && tsc && node lib/test-ses.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sesv2": "^3.272.0",
+    "dotenv": "^16.0.3"
+  }
+}
