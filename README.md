@@ -1,4 +1,4 @@
-# This repo is meant to test inline images with SES
+# This repo is meant to test email headers SES
 
 Full details here: https://github.com/aws/aws-sdk-js-v3/issues/4440
 
